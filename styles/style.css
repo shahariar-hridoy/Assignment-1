@@ -60,6 +60,7 @@
  }
 
 /*---- shared styles------ *//*---- shared styles------ */
+
 .btn-primary{
     background-color: #006A50;
     color: #FFFFFF;
@@ -92,8 +93,17 @@
     color: #0E0E0E;
     margin-bottom: 24px;
 }
-.left-banner-content{
-    
+/* --------1st card style section ------- *//* --------1st card style section ------- */
+.card-container1{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.card-column{
+    background-color: #FFFFFF;
+    border: solid #c4bcbc 1px;
+    border-radius: 16px;
+    padding: 24px;  
 }
 
 /* --///--------2st card design section--------///-2nd card design section------ */
@@ -184,4 +194,32 @@
 }
 .card-column3 button:hover{
     color: #000000;
+}
+/* ------bonus section-box style ------- -  *//* ------bonus section-box style ------- -  */
+
+.box-section{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 38px;
+    padding: 48px 24px;
+    margin-top: 32px;
+    border: solid #bdb1b1 1px;
+    border-radius: 16px;
+}
+.section-speech{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.box-title{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.box-sub-title{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 60%;
 }

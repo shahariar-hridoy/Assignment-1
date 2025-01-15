@@ -135,6 +135,18 @@
     border-radius: 16px;
     padding: 24px;  
 }
+.card-title{
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+   
+}
+.card-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    
+}
 
 /* --///--------2st card design section--------///-2nd card design section------ */
 

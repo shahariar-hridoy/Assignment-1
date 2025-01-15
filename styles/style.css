@@ -73,11 +73,40 @@
     color: #000000;
     cursor: pointer;
 }
+/* nav bar */
+.nav-bar{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70%;
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+.nav-title{
+    margin: 0 ;
+    color: #0E0E0E;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.nav-btn{
+    margin: 0 ;
+    height: 50px;
+    color: #006A50;
+    padding: 15px 30px;
+    font-size: 18px;   
+    /* border: #006A50; */
+    border-radius: 8px;
+}
+.nav-btn:hover{
+    color: #000000;
+    cursor: pointer;
+}
 /* -----------banner styles ---------*//* -----------banner styles ---------*/
 
 .banner-content{
     display: flex;
-    margin: 120px 160px 80px 160px;
+    margin: 0px 160px 80px 160px;
     justify-content: space-between;
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -426,11 +455,12 @@ color: #0E0E0E;
 .donation-box-container form{
     color: #0E0E0E;
     border-color: #000000;
-    opacity: 30%;
+    
     margin-bottom: 32px;
 }
 .amont-form{
     padding: 20px 400px;
+    opacity: 40%;
 }
 .donation-box-container button{
     margin-top: 6px;
@@ -445,3 +475,75 @@ color: #0E0E0E;
     color: #000000;
     cursor: pointer;
 }
+
+/* --------subscription- newsletter section style----- */
+.subscription-section{
+    
+
+}
+.subscription-section-container{
+    border-radius: 16px;
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.subscription-letter-title{
+    color: #0E0E0E;
+    font-size: 40px;
+}
+.subscription-letter-description{
+    color: #0E0E0E;
+    font-size: 16px;
+    opacity: 70%;
+}
+.email-form{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-input-form{
+    border: none;
+    padding: 18px 400px 18px 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.subscribe-btn{
+    margin-top: 0px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 16px 24px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.subscribe-btn:hover{
+    color: #000000;
+    cursor: pointer;
+}
+/* -----------footer section------- */
+.footer-section{
+    background-color: #F1F1F3;
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px;
+}
+.footer-title{
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.footer-icons{
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+}
+.horizontal-line{
+    width: 50%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+

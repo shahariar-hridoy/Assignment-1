@@ -71,6 +71,7 @@
 }
 .btn-primary:hover{
     color: #000000;
+    cursor: pointer;
 }
 /* -----------banner styles ---------*//* -----------banner styles ---------*/
 
@@ -187,18 +188,21 @@
 }
 /* 2nd card button-hover *//*------ 2nd card button-hover--------- */
 .card-column1 button:hover{
+    cursor: pointer;
     color: #000000;
 }
 .card-column2 button:hover{
+    cursor: pointer;
     color: #000000;
 }
 .card-column3 button:hover{
+    cursor: pointer;
     color: #000000;
 }
 /* ------bonus section-box style ------- -  *//* ------bonus section-box style ------- -  */
 
 .box-section{
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(quote-bg.png);
     background-repeat: no-repeat;
     background-position: 24px 38px;
     padding: 48px 24px;
@@ -318,6 +322,7 @@
 }
 .btn-news:hover{
     color: #000000;
+    cursor: pointer;
 }
 
 
@@ -374,4 +379,69 @@
 }
 .news-container2 .btn-news:hover{
     color: #000000;
+    cursor: pointer;
+}
+
+/* ------------donation-box-style----------- */
+.donation-box-container{
+    text-align: center;
+    margin-top: 80px;
+}
+.donation-box-title{
+font-size: 40px;
+color: #0E0E0E;
+}
+.donation-box-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.donation-card{
+    display: flex;
+    justify-content: space-around;
+}
+.donation-amount{
+    font-size: 40px;
+    border: solid #F1F1F3; 
+    padding: 40px;
+    border-radius: 16px;
+    opacity: 80%;
+}
+.donation-amount-200tk{
+    font-size: 40px;
+    border: solid #d6d6e6;
+    background-color: #C6E4D6; 
+    padding: 40px;
+    border-radius: 16px;
+    opacity: 80%;
+}
+.donation-amount:hover{
+    color: #0d1682;
+    cursor: pointer;
+}
+.donation-amount-200tk:hover{
+    color: #0d1682;
+    cursor: pointer;
+}
+.donation-box-container form{
+    color: #0E0E0E;
+    border-color: #000000;
+    opacity: 30%;
+    margin-bottom: 32px;
+}
+.amont-form{
+    padding: 20px 400px;
+}
+.donation-box-container button{
+    margin-top: 6px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 8px;
+}
+.donation-box-container button:hover{
+    color: #000000;
+    cursor: pointer;
 }
